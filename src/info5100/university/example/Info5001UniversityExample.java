@@ -125,24 +125,24 @@ public class Info5001UniversityExample {
 
         //
         courseload1.newSeatAssignment(courseoffer1).setGrade(.0f); // register student in class
-        courseload2.newSeatAssignment(courseoffer1).setGrade(3.9f);
-        courseload3.newSeatAssignment(courseoffer1).setGrade(3.8f);
-        courseload4.newSeatAssignment(courseoffer1).setGrade(3.7f);
-        courseload5.newSeatAssignment(courseoffer1).setGrade(3.6f);
-        courseload6.newSeatAssignment(courseoffer1).setGrade(3.5f);
-        courseload7.newSeatAssignment(courseoffer1).setGrade(3.4f);
-        courseload8.newSeatAssignment(courseoffer1).setGrade(3.3f);
-        courseload9.newSeatAssignment(courseoffer1).setGrade(3.2f);
-        courseload10.newSeatAssignment(courseoffer1).setGrade(3.1f);
-        courseload1.newSeatAssignment(courseoffer2).setGrade(3.0f);
         courseload2.newSeatAssignment(courseoffer2).setGrade(3.9f);
-        courseload3.newSeatAssignment(courseoffer2).setGrade(3.8f);
-        courseload4.newSeatAssignment(courseoffer2).setGrade(2.6f);
-        courseload5.newSeatAssignment(courseoffer2).setGrade(2.8f);
-        courseload7.newSeatAssignment(courseoffer2).setGrade(2.9f);
-        courseload8.newSeatAssignment(courseoffer2).setGrade(3.0f);
-        courseload9.newSeatAssignment(courseoffer2).setGrade(2.1f);
-        courseload10.newSeatAssignment(courseoffer2).setGrade(1.1f);
+        courseload3.newSeatAssignment(courseoffer3).setGrade(3.8f);
+        courseload4.newSeatAssignment(courseoffer4).setGrade(3.7f);
+        courseload5.newSeatAssignment(courseoffer5).setGrade(3.6f);
+        courseload6.newSeatAssignment(courseoffer6).setGrade(3.5f);
+        courseload7.newSeatAssignment(courseoffer7).setGrade(3.4f);
+        courseload8.newSeatAssignment(courseoffer8).setGrade(3.3f);
+        courseload9.newSeatAssignment(courseoffer9).setGrade(3.2f);
+        courseload10.newSeatAssignment(courseoffer10).setGrade(3.1f);
+        courseload1.newSeatAssignment(courseoffer1).setGrade(3.0f);
+        courseload2.newSeatAssignment(courseoffer2).setGrade(3.9f);
+        courseload3.newSeatAssignment(courseoffer3).setGrade(3.8f);
+        courseload4.newSeatAssignment(courseoffer4).setGrade(2.6f);
+        courseload5.newSeatAssignment(courseoffer5).setGrade(2.8f);
+        courseload7.newSeatAssignment(courseoffer6).setGrade(2.9f);
+        courseload8.newSeatAssignment(courseoffer7).setGrade(3.0f);
+        courseload9.newSeatAssignment(courseoffer8).setGrade(2.1f);
+        courseload10.newSeatAssignment(courseoffer9).setGrade(1.1f);
 
         for(StudentProfile s: sd.getStudentList()){
             s.printSemesterInfo("Fall2020");
